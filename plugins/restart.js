@@ -3,7 +3,7 @@ const { sleep } = require("../lib/functions");
 
 cmd({
     pattern: "restart",
-    desc: "`RESTARTING THARUSHA MD`",
+    desc: "`RESTARTING CYBER PANDA MD`",
     category: "owner",
     filename: __filename
 },

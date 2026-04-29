@@ -11,15 +11,14 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
-        const menuCaption = `
- *╭━━━〔 ${config.BOT_NAME} 〕━━━●●►*
+        const menuCaption = `*╭━━━〔 ${config.BOT_NAME} 〕━━━●●►*
 *┃ 👑 Owner : ${config.OWNER_NAME}*
 *┃ 🤖 Baileys : Multi Device*
 *┃ 💻 Type : NodeJs*
 *┃ 🚀 Platform : Heroku*
 *┃ ⚙️ Mode : [${config.MODE}]*
 *┃ 🔣 Prefix : [${config.PREFIX}]*
-*┃ 🏷️ Version : 10.0*
+*┃ 🏷️ Version : 1.0.0 Bᴇᴛᴀ*
 *╰━━━━━━━━━━━━━━●●►*
 
 *🔢 ʀᴇᴘʟʏ ᴛʜᴇ ɴᴜᴍʙᴇʀ ʙᴇʟᴏᴡ*🗿
@@ -35,9 +34,9 @@ cmd({
 *➈ ➽ 💞 ʀᴇᴀᴄᴛɪᴏɴ ᴍᴇɴᴜ*
 *➓ ➽ 🏠 ᴍᴀɪɴ ᴍᴇɴᴜ*
 
-「 🍄 」 「 ᴡᴇʙꜱɪᴛꜱᴇ 」:* https://sachithchandra.slsachith93.workers.dev/
+「 🍄 」 「 ɢɪᴛʜᴜʙ ʀᴇᴘᴏ 」:* https://github.com/Kanirpu/THARUSHA-MD
 
-> *㋛ ᴄʏʙᴇʀ x ꜱᴀᴄʜɪʏᴀ 🐼*`;
+> *㋛ 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰  〽️Ｄ*`;
 
         const contextInfo = {
             mentionedJid: [m.sender],
@@ -45,7 +44,7 @@ cmd({
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363411607943828@newsletter',
-                newsletterName: 'ᴄʏʙᴇʀ x ꜱᴀᴄʜɪʏᴀ',
+                newsletterName: '𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰 〽️𝙳',
                 serverMessageId: 143
             }
         };

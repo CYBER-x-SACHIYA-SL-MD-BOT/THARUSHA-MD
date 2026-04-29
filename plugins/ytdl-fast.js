@@ -36,7 +36,7 @@ cmd({
 👤 *Author:* ${yts.author.name}
 🔗 *Link:* ${yts.url}
 
-> *㋛ 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰  〽️Ｄ*`;
+> *㋛ 🐼 ᴄʏʙᴇʀ ᴘᴀɴᴅᴀ ᴍᴅ 🐼*`;
 
         // Send video directly with caption
         await conn.sendMessage(
@@ -87,11 +87,11 @@ cmd({
     contextInfo: {
         externalAdReply: {
             title: song.title.length > 25 ? `${song.title.substring(0, 22)}...` : song.title,
-            body: "Join our WhatsApp Channel",
+            body: "Website",
             mediaType: 1,
             thumbnailUrl: song.thumbnail.replace('default.jpg', 'hqdefault.jpg'),
-            sourceUrl: 'https://whatsapp.com/channel/0029Vb4eZqo3bbV0lTGjFn2S',
-            mediaUrl: 'https://whatsapp.com/channel/0029Vb4eZqo3bbV0lTGjFn2S',
+            sourceUrl: 'https://sachithchandra.slsachith93.workers.dev/',
+            mediaUrl: 'https://sachithchandra.slsachith93.workers.dev/',
             showAdAttribution: true,
             renderLargerThumbnail: true
         }

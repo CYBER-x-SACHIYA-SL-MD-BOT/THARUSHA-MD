@@ -338,7 +338,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363411607943828@newsletter',
-                        newsletterName: '𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰 〽️𝙳',
+                        newsletterName: '🐼 ᴄʏʙᴇʀ ᴘᴀɴᴅᴀ ᴍᴅ 🐼',
                         serverMessageId: 143
                     }
                 }
@@ -347,14 +347,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         );
 
         // Send audio
-        await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/TECH-HORIZON-OWNER/PROJECT-FSD/raw/refs/heads/main/audio/AUD-20250323-WA0003.mp3' },
-            mimetype: 'audio/mp4',
-            ptt: true
-        }, { quoted: mek });
+        //await conn.sendMessage(from, {//
+            //audio: { url: 'https://github.com/TECH-HORIZON-OWNER/PROJECT-FSD/raw/refs/heads/main/audio/AUD-20250323-WA0003.mp3' },//
+            //mimetype: 'audio/mp4',//
+            //ptt: true//
+       // }, { quoted: mek });//
         
-    } catch (e) {
-        console.log(e);
-        reply(`❌ Error: ${e}`);
-    }
-});
+   // } catch (e) {//
+        //console.log(e);//
+        //reply(`❌ Error: ${e}`);//
+    //}
+//});//

@@ -17,7 +17,7 @@ cmd({
             from,
             {
               sticker: { url: data[keyword] },
-              package: 'KHAN-MD'
+              package: 'ᴄʏʙᴇʀ ᴘᴀɴᴅᴀ ᴍᴅ ᴍɪɴɪ'
             },
             { quoted: mek }
           );

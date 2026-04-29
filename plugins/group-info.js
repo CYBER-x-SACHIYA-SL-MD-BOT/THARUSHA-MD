@@ -19,9 +19,9 @@ if (!isGroup) return reply(msr.only_gp)
 if (!isAdmins) { if (!isDev) return reply(msr.you_adm),{quoted:mek }} 
 if (!isBotAdmins) return reply(msr.give_adm)
 const ppUrls = [
-        'https://i.ibb.co/KhYC4FY/1221bc0bdd2354b42b293317ff2adbcf-icon.png',
-        'https://i.ibb.co/KhYC4FY/1221bc0bdd2354b42b293317ff2adbcf-icon.png',
-        'https://i.ibb.co/KhYC4FY/1221bc0bdd2354b42b293317ff2adbcf-icon.png',
+        'hhttps://i.ibb.co/NnsG77D7/IMG-20260429-WA0007.jpg',
+        'hhttps://i.ibb.co/NnsG77D7/IMG-20260429-WA0007.jpg',
+        'hhttps://i.ibb.co/NnsG77D7/IMG-20260429-WA0007.jpg',
       ];
 let ppUrl = await conn.profilePictureUrl( from , 'image')
 if (!ppUrl) { ppUrl = ppUrls[Math.floor(Math.random() * ppUrls.length)];}

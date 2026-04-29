@@ -40,11 +40,11 @@ ${truncatedCode}
 ╰──────────⊷  
 ⚡ Full file sent below 📂  
 
- > *㋛ 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰  〽️Ｄ*`;
+ > *㋛ 🐼 ᴄʏʙᴇʀ ᴘᴀɴᴅᴀ ᴍᴅ 🐼*`;
 
         // Send image with truncated source code
         await conn.sendMessage(from, { 
-            image: { url: `https://i.ibb.co/Z1kTvQQH/5533.jpg` },  // Image URL
+            image: { url: `https://i.ibb.co/NnsG77D7/IMG-20260429-WA0007.jpg` },  // Image URL
             caption: formattedCode,
             contextInfo: {
                 mentionedJid: [m.sender],

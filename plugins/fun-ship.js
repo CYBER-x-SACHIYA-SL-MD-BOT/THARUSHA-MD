@@ -39,7 +39,7 @@ cmd({
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: "120363411607943828@newsletter",
-          newsletterName: "ᴛʜᴀʀᴜꜱʜᴀ ᴍᴅ",
+          newsletterName: "ᴄʏʙᴇʀ ᴘᴀɴᴅᴀ ᴍᴅ ᴍɪɴɪ",
           serverMessageId: 143
         }
       }

@@ -73,7 +73,7 @@ cmd({
         await conn.sendMessage(
             from,
             {
-                image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/Z1kTvQQH/5533.jpg' },
+                image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/NnsG77D7/IMG-20260429-WA0007.jpg' },
                 caption: menuText,
                 contextInfo: {
                     mentionedJid: [m.sender],

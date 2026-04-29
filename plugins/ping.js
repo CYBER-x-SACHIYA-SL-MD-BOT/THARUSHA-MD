@@ -42,7 +42,7 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363411607943828@newsletter',
-                    newsletterName: "𝚃𝙷𝙰𝚁𝚄𝚂𝙷𝙰 〽️𝙳",
+                    newsletterName: "🐼 ᴄʏʙᴇʀ ᴘᴀɴᴅᴀ ᴍᴅ 🐼",
                     serverMessageId: 143
                 }
             }
@@ -69,7 +69,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const message = await conn.sendMessage(from, { text: '*𝗣𝗜𝗡𝗜𝗡𝗚...*' })
         const endTime = Date.now()
         const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `*📍𝗧𝗛𝗔𝗥𝗨𝗦𝗛𝗔-𝗠𝗗 𝗦𝗣𝗘𝗘𝗗 : ${ping}ms*` }, { quoted: message })
+        await conn.sendMessage(from, { text: `*📍𝗖𝗬𝗕𝗘𝗥 𝗣𝗔𝗡𝗗𝗔 𝗠𝗗 𝗦𝗣𝗘𝗘𝗗 : ${ping}ms*` }, { quoted: message })
     } catch (e) {
         console.log(e)
         reply(`${e}`)
